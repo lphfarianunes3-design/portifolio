@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Phelipe | Portfólio Dev</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Estilos CSS Personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header id="cabecalho">
+        <nav class="navegacao">
+            <a href="#" class="logotipo">Luis<span>.dev</span></a>
+            
+            <div class="menu-mobile" id="botao-menu" aria-label="Abrir menu de navegação">
+                <i class="bi bi-list"></i>
+            </div>
+            
+            <ul class="lista-navegacao" id="lista-navegacao">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li>
+                    <button id="botao-tema" aria-label="Alternar entre modo claro e escuro">
+                        <i class="bi bi-moon-fill" id="icone-tema"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal (Hero) -->
+    <section id="inicio" class="secao-hero">
+        <div class="conteudo-hero">
+            <span class="saudacao-hero">Olá, meu nome é</span>
+            <h1 class="titulo-hero">Luis Phelipe</h1>
+            <h2 class="subtitulo-hero">Eu sou <span class="texto-maquina">Estudante de Desenvolvimento Full Stack</span></h2>
+            <p class="descricao-hero">
+                Sou apaixonado por criar interfaces interativas e busco minha primeira oportunidade na área de tecnologia.
+            </p>
+            <div class="botoes-hero">
+                <a href="curriculo.pdf" class="botao botao-primario" download="curriculo.pdf">
+                    <i class="bi bi-file-earmark-arrow-down"></i> Baixar meu CV
+                </a>
+                <a href="#projetos" class="botao botao-secundario">
+                    <i class="bi bi-code-slash"></i> Ver Projetos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="secao">
+        <div class="container">
+            <div class="cabecalho-secao">
+                <h2>Sobre Mim</h2>
+                <p>Conheça um pouco da minha trajetória e habilidades</p>
+            </div>
+            
+            <div class="grid-sobre">
+                <div class="card-sobre">
+                    <h3>Minha História</h3>
+                    <p>
+                        Sou estudante do 1º ano do Ensino Médio Técnico em Informática para Internet pela SESC Escola, em parceria com o SENAC. 
+                        Com forte foco em programação, iniciei minha trilha de aprendizado me especializando em desenvolvimento Front-end. 
+                        Nos próximos anos, minha formação se expandirá para o Back-end (2º ano) e desenvolvimento Mobile (3º ano), construindo 
+                        uma base sólida para me tornar um Desenvolvedor Full Stack.
+                    </p>
+                </div>
+                
+                <div class="card-sobre">
+                    <h3>Hard Skills</h3>
+                    <div class="container-badges">
+                        <span class="badge-habilidade"><i class="bi bi-filetype-html"></i> HTML5</span>
+                        <span class="badge-habilidade"><i class="bi bi-filetype-css"></i> CSS3</span>
+                        <span class="badge-habilidade"><i class="bi bi-filetype-js"></i> JavaScript</span>
+                        <span class="badge-habilidade"><i class="bi bi-cpu"></i> Lógica de Programação</span>
+                        <span class="badge-habilidade"><i class="bi bi-diagram-3"></i> Algoritmos</span>
+                        <span class="badge-habilidade"><i class="bi bi-git"></i> Git</span>
+                        <span class="badge-habilidade"><i class="bi bi-github"></i> GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Educação (Opção 3: UI/UX Clean com Trilhas e Ícones) -->
+    <section id="educacao" class="secao fundo-alternativo">
+        <div class="container">
+            <div class="cabecalho-secao">
+                <h2>Educação & Trilha Técnica</h2>
+                <p>Formação acadêmica e especializações em andamento</p>
+            </div>
+            
+            <div class="card-educacao-destaque">
+                <div class="selo-excelencia">
+                    <i class="bi bi-award-fill"></i> Instituição de Excelência: SESC Escola & SENAC
+                </div>
+                <h3>Ensino Médio Integrado ao Técnico em Informática para Internet</h3>
+                <p class="conclusao-curso">Conclusão prevista para <strong>2026</strong></p>
+                
+                <div class="trilha-container">
+                    <div class="trilha-modulo ativo">
+                        <i class="bi bi-display"></i>
+                        <h4>Módulo 1: Front-end</h4>
+                        <span class="status-badge">Atual (Em andamento)</span>
+                    </div>
+                    <div class="trilha-modulo">
+                        <i class="bi bi-server"></i>
+                        <h4>Módulo 2: Back-end</h4>
+                        <span class="status-badge">Próximo passo</span>
+                    </div>
+                    <div class="trilha-modulo">
+                        <i class="bi bi-phone"></i>
+                        <h4>Módulo 3: Mobile</h4>
+                        <span class="status-badge">Futuro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="projetos" class="secao">
+        <div class="container">
+            <div class="cabecalho-secao">
+                <h2>Meu Portfólio & Estudos</h2>
+                <p>Projetos desenvolvidos e repositórios de aprendizado</p>
+            </div>
+            
+            <!-- Subseção A: Projetos de Destaque -->
+            <h3 class="subtitulo-secao">Projetos de Destaque</h3>
+            <div class="grid-projetos">
+                
+                <!-- Projeto 1 -->
+                <div class="card-projeto">
+                    <div class="imagem-projeto">
+                        <div class="placeholder-imagem">
+                            <i class="bi bi-robot"></i>
+                        </div>
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h4>-projeto-robomaker</h4>
+                        <p>Plataforma que auxilia na construção de objetos eletrônicos, oferecendo suporte e orientações práticas.</p>
+                        <div class="tecnologias-projeto">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="botoes-projeto">
+                            <a href="https://nelson-67.github.io/projeto-robomaker/" target="_blank" class="botao botao-pequeno botao-primario">
+                                <i class="bi bi-globe"></i> Ver Site
+                            </a>
+                            <a href="https://github.com/lphfarianunes3-design/-projeto-robomaker-" target="_blank" class="botao botao-pequeno botao-secundario">
+                                <i class="bi bi-github"></i> Repositório
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="card-projeto">
+                    <div class="imagem-projeto">
+                        <div class="placeholder-imagem">
+                            <i class="bi bi-music-note-beamed"></i>
+                        </div>
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h4>compasso-musical</h4>
+                        <p>Site interativo que ajuda músicos iniciantes a escolherem e poderem comprar seus primeiros instrumentos musicais.</p>
+                        <div class="tecnologias-projeto">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="botoes-projeto">
+                            <a href="https://nelson-67.github.io/compasso-musical/" target="_blank" class="botao botao-pequeno botao-primario">
+                                <i class="bi bi-globe"></i> Ver Site
+                            </a>
+                            <a href="https://github.com/lphfarianunes3-design/-projeto-robomaker-/blob/main/index.html" target="_blank" class="botao botao-pequeno botao-secundario">
+                                <i class="bi bi-github"></i> Repositório
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Subseção B: Repositórios de Estudo -->
+            <h3 class="subtitulo-secao espacamento-topo">Repositórios de Estudo</h3>
+            <div class="grid-repositorios">
+                <a href="https://github.com/" target="_blank" class="card-repositorio">
+                    <i class="bi bi-filetype-html"></i>
+                    <div>
+                        <h5>Trilha de HTML e CSS</h5>
+                        <p>Anotações e exercícios práticos</p>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/" target="_blank" class="card-repositorio">
+                    <i class="bi bi-filetype-js"></i>
+                    <div>
+                        <h5>Trilha de JavaScript Vanilla</h5>
+                        <p>Scripts, manipulação de DOM e lógica</p>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/" target="_blank" class="card-repositorio">
+                    <i class="bi bi-code"></i>
+                    <div>
+                        <h5>Lógica e Algoritmos</h5>
+                        <p>Exercícios em Portugol e diagramas</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seção Contato e Redes Sociais -->
+    <section id="contato" class="secao fundo-alternativo">
+        <div class="container">
+            <div class="cabecalho-secao">
+                <h2>Vamos Conversar?</h2>
+                <p>Conecte-se comigo através das minhas redes sociais ou envie um e-mail</p>
+            </div>
+            
+            <div class="grid-contatos">
+                <!-- E-mail -->
+                <a href="mailto:lphfarianunes3@gmail.com" class="card-contato email">
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>E-mail</span>
+                    <small>lphfarianunes3@gmail.com</small>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/" target="_blank" class="card-contato github">
+                    <i class="bi bi-github"></i>
+                    <span>GitHub</span>
+                    <small>Acessar Perfil</small>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/5565993534740" target="_blank" class="card-contato whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                    <span>WhatsApp</span>
+                    <small>(65) 99353-4740</small>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="rodape">
+        <div class="container container-rodape">
+            <p>Desenvolvido com <i class="bi bi-heart-fill cor-coracao"></i> por <span id="nome-autor">Luis Phelipe</span></p>
+            <p>&copy; <span id="ano-atual"></span> Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="botao-topo" aria-label="Voltar ao topo da página">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
